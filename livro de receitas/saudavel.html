@@ -1,103 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Livro de receitas da mamãe - Alimentação Saudável</title>
-        <meta charset="UTF-8">
-       
-        <!-- fontes externas -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<head>
+    <title>Livro de receitas da mamãe - Alimentação Saudável</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../clone netflix/style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fontes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- Principal CSS do Bootstrap-->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
      
-        <!-- Principal CSS do Bootstrap -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-     
-        <!-- Estilos customizados para esse template -->   
-  
-        <link rel="stylesheet" type="text/css" href="css/receitas.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Estilos customizados para esse template -->   
 
-        <style>
-            
-footer{
-    background-color:maroon;
-    margin-bottom: 5px;
-}
-footer.footer{
-    color: beige;
-    size: 12px;
-    height: 50px;
-    padding-top: 15px;
-}
-    
-}
-footer p{
- text-align: center;
-}
-        </style>
-        
-    </head>
+    <link rel="stylesheet" type="text/css" href="css/receitas.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <body>
-       <header>
-            <div class="container-menu">
-                <img  src="img/logo.png" ></img>
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a href="#">Alimentação Saudável</a>
-                    <a href="#">Massas</a>
-                    <a href="#">Aves</a>
-                    <a href="#">Carnes</a>
-                    <a href="#">Peixes</a>
-                    <a href="#">Saladas</a>
-                    <a href="#">Sopas</a>
-                    <a href="#">Lanches</a>
-                </nav>
-            </div>
-       </header>
-       <section id="receitas">
-           <div class="container-fluid text-center ">
-               <h1 class="titulo ">Bolo integral de banana</h1>
-               <img src="img/bolo-de-banana.webp" class="foto">
-           </div>
+    <!--owl css-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
 
-           <div class="descricao container-fluid text-left">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h2 class="titulo">INGREDIENTES</h2>
-                        <p>4 ovos inteiros</p>
-                        <p>6 bananas caturra cortadas em rodelas</p>
-                        <p>1/2 xícara de chá de óleo de canola</p>
-                        <p>1/2 xícara de leite desnatado</p>
-                        <p>1 xícara de chá de farinha de trigo integral</p>
-                        <p>1 xícara de chá de aveia</p>
-                        <p>2 xícaras de chá, não muito cheias, de açúcar mascavo.</p>
-                        <p>canela para salpicar</p>
-                        <p>1 colher de sopa de fermento em pó</p>
-                        
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="titulo">MODO DE PREPARO</h2>
-                        <p>
-                            Bata todos os ingredientes no liqüidificador 
-                            com apenas 1 banana, coloque em forma untada 
-                            com óleo e farinha. Ponha as rodelas de banana 
-                            sobre essa massa e salpique com canela. Assar 
-                            em forno pré-aquecido, a 180° por aproximadamente 
-                            50 minutos.</p>
-                        
-                    </div>
+</head>
+<body>
+    <header>
+        <div class="container-menu">
+            <a href="index.html"><img  src="img/logo.png" ></img></a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="saudavel.html">Alimentação Saudável</a>
+                <a href="massa.html">Massas</a>
+                <a href="ave.html">Aves</a>
+                <a href="carne.html">Carnes</a>
+                <a href="peixe.html">Peixes</a>
+                <a href="salada.html">Saladas</a>
+                <a href="sopa.html">Sopas</a>
+                <a href="lanche.html">Lanches</a>
+            </nav>
+        </div>
+   </header>
+
+    <div class="carrosel-receitas">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min1.jpg" alt="" srcset="">
                 </div>
-                
-             </div>
-             <div class="container-fluid informacoes-adicionais">
-                <h3 class="titulo">INFORMAÇÕES ADICIONAIS</h3>
-                <h5>A banana caturra é conhecida em algumas regiões por banana nanica</h5>
-            </div>
-       </section>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min8.png" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-receita" src="img/saudavel/min10.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
 
-       <footer class="margin ">
-            <p class="footer">Desenvolvido por Paulo Manzano</p>
-      </footer>
-    </body>
+    <!-- Receita -->
+
+    <section id="receitas">
+        <div class="container-fluid text-center ">
+            <h1 class="titulo ">Bolo integral de banana</h1>
+            <img src="img/bolo-de-banana.webp" class="foto">
+        </div>
+
+        <div class="descricao container-fluid text-left">
+             <div class="row">
+                 <div class="col-lg-6">
+                     <h2 class="titulo">INGREDIENTES</h2>
+                     <p>4 ovos inteiros</p>
+                     <p>6 bananas caturra cortadas em rodelas</p>
+                     <p>1/2 xícara de chá de óleo de canola</p>
+                     <p>1/2 xícara de leite desnatado</p>
+                     <p>1 xícara de chá de farinha de trigo integral</p>
+                     <p>1 xícara de chá de aveia</p>
+                     <p>2 xícaras de chá, não muito cheias, de açúcar mascavo.</p>
+                     <p>canela para salpicar</p>
+                     <p>1 colher de sopa de fermento em pó</p>
+                     
+                 </div>
+                 <div class="col-lg-6">
+                     <h2 class="titulo">MODO DE PREPARO</h2>
+                     <p>
+                         Bata todos os ingredientes no liqüidificador 
+                         com apenas 1 banana, coloque em forma untada 
+                         com óleo e farinha. Ponha as rodelas de banana 
+                         sobre essa massa e salpique com canela. Assar 
+                         em forno pré-aquecido, a 180° por aproximadamente 
+                         50 minutos.</p>
+                     
+                 </div>
+             </div>
+             
+          </div>
+          <div class="container-fluid informacoes-adicionais">
+             <h3 class="titulo">INFORMAÇÕES ADICIONAIS</h3>
+             <h5>A banana caturra é conhecida em algumas regiões por banana nanica</h5>
+         </div>
+    </section>
+
+    
+    <footer class="margin ">
+        <p class="footer">Desenvolvido por Paulo Manzano</p>
+  </footer>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+ 
+</body>
 </html>

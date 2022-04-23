@@ -18,6 +18,29 @@ p{
     padding: 0;
 }
 
+/* carrosselreceitas */
+
+.carrossel-receitas{
+    width: 100%;
+    height: 200px;
+    border: 1px solid brown;
+}
+
+.box-receita{
+    height: 200PX;
+    width: 200px;  
+}
+
+
+.item{
+    margin-top:5px;
+    display: flexbox;
+    cursor: pointer;
+}
+
+
+/*receita principal */
+
 .foto{
 width: 500px;
 height: 100%;
